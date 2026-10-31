@@ -1,6 +1,6 @@
 # Documentation and Project Completion Checklist
 
-This checklist reflects the recorded implementation and verification results available during the documentation update. A checked item means that the corresponding evidence was recorded; it does not replace a final comparison with the actual project folder.
+This checklist reflects the recorded implementation and local verification results. A checked item means evidence was recorded; it does not replace the reviewer's independent assessment.
 
 ## A. Core Project Implementation
 
@@ -9,9 +9,12 @@ This checklist reflects the recorded implementation and verification results ava
 - [x] Synthetic failures and maintenance work orders: 150 each.
 - [x] Parts and work-order/part relationships: 240 records.
 - [x] Separate ground-truth dataset: 2,850 records.
-- [x] Data validation: zero baseline validation errors.
-- [x] Five deliberate exception scenarios detected.
-- [x] Telemetry-gap fixture checked without replacing missing readings with zero.
+- [x] Baseline data validation: zero errors.
+- [x] Extended primary-key and configured foreign-key validation.
+- [x] Extended checks for configured domain values, sensor definitions, and generated operating shifts.
+- [x] Failure, maintenance chronology, derived duration, part reconciliation, and work-order lifecycle checks.
+- [x] Per-sensor telemetry schedule validation, including duplicate timestamps and missing/irregular intervals.
+- [x] Five deliberate exception fixtures independently checked by extended validation (5/5).
 - [x] Maintenance lifecycle history: 450 records.
 - [x] Downtime and repair-duration calculations independently reconciled for 150 work orders.
 - [x] Explainable rule-based risk scoring and audit outputs.
@@ -21,45 +24,39 @@ This checklist reflects the recorded implementation and verification results ava
 
 ## B. Verification Evidence
 
-- [x] Automated test run: 12 passed.
-- [x] Starter-scale generation checked with zero validator errors.
-- [x] Two independent full pipeline runs compared.
+- [x] Python syntax compilation passed for the integrated validator and extended-validator tests.
+- [x] Automated tests: 21 passed (12 existing tests plus 9 extended-validator tests).
+- [x] Full baseline validation: zero errors on 1,080,000 telemetry records.
+- [x] Full extended validation: zero errors on the 100-machine baseline.
+- [x] All five exception fixtures detected by independent extended-validator rules.
+- [x] Starter-scale generation checked with zero errors using the original validator.
+- [x] Two independent full-pipeline runs compared.
 - [x] All 24 compared CSV row counts and SHA-256 checksums matched.
 - [x] Held-out risk metrics documented with the low-recall limitation.
-- [ ] Replay `data/exports/seed.sql` into a fresh database and verify the resulting schema and row counts, or clearly retain the limitation that replay was not tested.
-- [ ] Run one final local verification after copying these documentation updates into the actual project folder.
+- [ ] Replay `data/exports/seed.sql` into a fresh database and verify the resulting schema and row counts, or continue to disclose that replay was not tested.
+- [ ] Run a final local verification after all documentation updates are copied into the project.
 
-## C. Documentation Updated in This Package
+## C. Documentation
 
-- [x] `README.md` â€” project overview, structure, installation, commands, outputs, verification, limitations, and AI documentation references.
-- [x] `docs/AI_USAGE.md` â€” project ownership, AI acceleration, substantial AI coding assistance, and candidate review/validation.
-- [x] `docs/AI_PROMPT_HISTORY.md` â€” known prompt record with gaps explicitly marked.
-- [x] `docs/SOURCE_MANIFEST.md` â€” source modules and test files reconciled against the recorded project structure.
-- [x] `docs/VALIDATION_SUMMARY.md` â€” stale outstanding items replaced with the recorded latest verification state.
-- [x] `docs/REPRODUCIBILITY_REPORT.md` â€” reproducibility result clarified as 24 matching CSV outputs.
-- [x] `docs/RISK_EVALUATION.md` â€” full-period and chronological holdout metrics documented.
-- [x] `docs/data_dictionary.md` â€” lifecycle-history and downtime definitions clarified.
-- [x] This documentation checklist.
+- [ ] README run order, setup command, business context, ID examples, and current validator behaviour reviewed.
+- [ ] Field-level data dictionary reviewed against generated field names, keys, domain values, and validation rules.
+- [ ] Validation summary updated with the 21-test and extended-validator results.
+- [ ] Documentation references and project tree checked against the final local folder.
+- [x] AI usage and prompt-history files retained without modification; the prompt history remains disclosed as a reconstructed record rather than a complete word-for-word export.
 
-## D. AI Documentation and Final Review
+## D. Git and GitHub
 
-- [x] Confirmed ChatGPT was the only AI tool used.
-- [x] Explained in first person how ChatGPT helped me during development.
-- [x] Described my existing understanding and the topics where I needed guidance.
-- [x] Added beginner-level, project-related examples of the questions I used.
-- [x] Covered the actual project topics: Python, data relationships, telemetry, validation, exceptions, maintenance, risk scoring, evaluation, dashboard, testing, reproducibility, and exports.
-- [x] Kept representative rewritten questions separate from original messages.
-- [x] Disclosed that the complete historical prompt transcript was not available.
-- [ ] Add any additional original prompts recovered from older conversations.
-- [ ] Compare the source manifest with the actual project folders.
-- [ ] Complete the final review of all documentation and README instructions.
-## E. Git and GitHub â€” Not Started in This Documentation Phase
+- [x] Initial commit created on `main`.
+- [x] Initial commit pushed to the public GitHub repository.
+- [x] `.gitignore` reviewed for virtual environments, secrets, caches, and high-volume generated data.
+- [ ] Review and commit the current validator and documentation updates.
+- [ ] Push the final update to `origin/main` and verify the public repository reflects it.
 
-- [ ] Do not start Git/GitHub work until sections C and D are reviewed and the documentation files are in the actual project folder.
-- [ ] Review `.gitignore` to ensure virtual environments, secrets, caches, and large generated data are excluded as intended.
-- [ ] Check the final repository contents for credentials, personal/sensitive information, or unintended generated files.
-- [ ] Only then proceed with Git status, staging, meaningful commits, public repository creation, and README verification.
+## E. Known Limitations to Disclose
 
-## Overall Status
-
-**Documentation files are integrated locally. Prompt-history reconciliation and final review remain pending. Git/GitHub has not been started.**
+- All generated operating records and failure outcomes are synthetic.
+- Risk scores are heuristic, not calibrated probabilities; holdout recall is limited.
+- Downtime is a synthetic estimate derived from failure and maintenance timestamps.
+- Master data is a static snapshot; effective-dated master-data history is not implemented.
+- The SQL seed was generated but fresh-database replay was not tested.
+- The 24-file reproducibility comparison covered CSV outputs, not JSON/SQLite/SQL export artifacts.

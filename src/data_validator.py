@@ -542,6 +542,7 @@ class DataValidator:
         return True
 
 
+
 def main():
     project_root = Path(__file__).resolve().parent.parent
 
@@ -557,9 +558,18 @@ def main():
         config=config,
     )
 
+    # Run the original data validation
     success = validator.run()
 
     if not success:
+        raise SystemExit(1)
+
+    # Run the additional validation checks
+    from src.extended_validator import ExtendedDataValidator
+
+    extended_validator = ExtendedDataValidator(project_root, config)
+
+    if not extended_validator.run():
         raise SystemExit(1)
 
 
