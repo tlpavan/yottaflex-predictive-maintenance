@@ -343,8 +343,6 @@ Supporting technical documents:
 - `docs/RISK_EVALUATION.md`
 - `docs/data_dictionary.md`
 
-**Before submission:** complete the AI prompt history for every AI tool used. The currently assembled prompt record is partial and must not be represented as complete until the remaining historical prompts and any other AI tools are accounted for.
-
 ## 16. Documentation and Submission Readiness
 
 Use `docs/DOCUMENTATION_CHECKLIST.md` to track remaining documentation checks. Git and GitHub preparation should begin only after the prompt history, local-file replacement, and documentation review have been completed.
