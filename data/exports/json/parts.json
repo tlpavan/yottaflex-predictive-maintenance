@@ -1,0 +1,12 @@
+[
+{"part_id": "BEARING-001", "part_name": "Industrial Bearing", "unit_cost": 1250.0, "unit": "EACH"},
+{"part_id": "FILTER-001", "part_name": "Air Filter", "unit_cost": 450.0, "unit": "EACH"},
+{"part_id": "BELT-001", "part_name": "Drive Belt", "unit_cost": 850.0, "unit": "EACH"},
+{"part_id": "MOTOR-001", "part_name": "Electric Motor Component", "unit_cost": 3500.0, "unit": "EACH"},
+{"part_id": "SEAL-001", "part_name": "Mechanical Seal", "unit_cost": 650.0, "unit": "EACH"},
+{"part_id": "SENSOR-001", "part_name": "Temperature Sensor", "unit_cost": 1100.0, "unit": "EACH"},
+{"part_id": "VALVE-001", "part_name": "Pressure Valve", "unit_cost": 1800.0, "unit": "EACH"},
+{"part_id": "COOLANT-001", "part_name": "Cooling Fluid", "unit_cost": 300.0, "unit": "EACH"},
+{"part_id": "LUBRICANT-001", "part_name": "Industrial Lubricant", "unit_cost": 550.0, "unit": "EACH"},
+{"part_id": "SHAFT-001", "part_name": "Drive Shaft", "unit_cost": 2400.0, "unit": "EACH"}
+]

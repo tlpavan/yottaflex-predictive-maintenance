@@ -1,0 +1,5 @@
+[
+{"shift_code": "A", "shift_name": "Morning Shift", "start_time": "06:00", "end_time": "14:00", "timezone": "UTC"},
+{"shift_code": "B", "shift_name": "Evening Shift", "start_time": "14:00", "end_time": "22:00", "timezone": "UTC"},
+{"shift_code": "C", "shift_name": "Night Shift", "start_time": "22:00", "end_time": "06:00", "timezone": "UTC"}
+]

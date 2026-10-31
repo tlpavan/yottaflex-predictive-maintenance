@@ -1,0 +1,22 @@
+[
+{"technician_id": "TECH-001", "technician_name": "Technician 001", "specialization": "MECHANICAL", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-002", "technician_name": "Technician 002", "specialization": "ELECTRICAL", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-003", "technician_name": "Technician 003", "specialization": "INSTRUMENTATION", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-004", "technician_name": "Technician 004", "specialization": "GENERAL_MAINTENANCE", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-005", "technician_name": "Technician 005", "specialization": "MECHANICAL", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-006", "technician_name": "Technician 006", "specialization": "ELECTRICAL", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-007", "technician_name": "Technician 007", "specialization": "INSTRUMENTATION", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-008", "technician_name": "Technician 008", "specialization": "GENERAL_MAINTENANCE", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-009", "technician_name": "Technician 009", "specialization": "MECHANICAL", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-010", "technician_name": "Technician 010", "specialization": "ELECTRICAL", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-011", "technician_name": "Technician 011", "specialization": "INSTRUMENTATION", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-012", "technician_name": "Technician 012", "specialization": "GENERAL_MAINTENANCE", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-013", "technician_name": "Technician 013", "specialization": "MECHANICAL", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-014", "technician_name": "Technician 014", "specialization": "ELECTRICAL", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-015", "technician_name": "Technician 015", "specialization": "INSTRUMENTATION", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-016", "technician_name": "Technician 016", "specialization": "GENERAL_MAINTENANCE", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-017", "technician_name": "Technician 017", "specialization": "MECHANICAL", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-018", "technician_name": "Technician 018", "specialization": "ELECTRICAL", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-019", "technician_name": "Technician 019", "specialization": "INSTRUMENTATION", "availability_status": "AVAILABLE"},
+{"technician_id": "TECH-020", "technician_name": "Technician 020", "specialization": "GENERAL_MAINTENANCE", "availability_status": "AVAILABLE"}
+]

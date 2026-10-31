@@ -1,0 +1,5 @@
+[
+{"plant_id": "PLT-001", "plant_name": "Plant 1", "location": "Hyderabad"},
+{"plant_id": "PLT-002", "plant_name": "Plant 2", "location": "Pune"},
+{"plant_id": "PLT-003", "plant_name": "Plant 3", "location": "Chennai"}
+]

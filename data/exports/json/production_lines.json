@@ -1,0 +1,14 @@
+[
+{"line_id": "LINE-PLT-001-001", "plant_id": "PLT-001", "line_name": "Production Line 1"},
+{"line_id": "LINE-PLT-002-002", "plant_id": "PLT-002", "line_name": "Production Line 2"},
+{"line_id": "LINE-PLT-003-003", "plant_id": "PLT-003", "line_name": "Production Line 3"},
+{"line_id": "LINE-PLT-001-004", "plant_id": "PLT-001", "line_name": "Production Line 4"},
+{"line_id": "LINE-PLT-002-005", "plant_id": "PLT-002", "line_name": "Production Line 5"},
+{"line_id": "LINE-PLT-003-006", "plant_id": "PLT-003", "line_name": "Production Line 6"},
+{"line_id": "LINE-PLT-001-007", "plant_id": "PLT-001", "line_name": "Production Line 7"},
+{"line_id": "LINE-PLT-002-008", "plant_id": "PLT-002", "line_name": "Production Line 8"},
+{"line_id": "LINE-PLT-003-009", "plant_id": "PLT-003", "line_name": "Production Line 9"},
+{"line_id": "LINE-PLT-001-010", "plant_id": "PLT-001", "line_name": "Production Line 10"},
+{"line_id": "LINE-PLT-002-011", "plant_id": "PLT-002", "line_name": "Production Line 11"},
+{"line_id": "LINE-PLT-003-012", "plant_id": "PLT-003", "line_name": "Production Line 12"}
+]

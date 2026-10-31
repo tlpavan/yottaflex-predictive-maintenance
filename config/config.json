@@ -1,0 +1,12 @@
+{
+    "seed": 20261022,
+    "plants": 3,
+    "lines": 12,
+    "machines": 100,
+    "sensors": 500,
+    "output_dir": "data/raw",
+    "telemetry_days": 90,
+    "telemetry_interval_minutes": 60,
+    "telemetry_start": "2026-07-01T00:00:00+00:00",
+    "failure_events": 150
+}
