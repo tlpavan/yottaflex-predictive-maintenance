@@ -36,20 +36,3 @@ The examples below show the kind of questions I asked while working on the proje
 
 Some original messages recovered from our project conversations:
 
-1. `hey what are you doing what we need to complete next in this project`
-
-2. `please check the previous chat if us and make decisions through the project`
-
-3. `does we make all the things mentioned in the email or we missed anything check clearly and give the answers if we missed tell truly donot need to support my answers`
-
-4. `okay make a check list based on the above information what are completed and what are upto complete`
-
-5. `okay now movw to the 2nd point checklist`
-
-The original full challenge-description message was not available in the record used to prepare this file.
-
-## 5. Note
-
-The five examples in Section 3 are rewritten examples based on the topics we worked on. They are not claimed to be verbatim prompts.
-
-Section 4 preserves original messages where their wording was available. This document is a reconstructed record, not a complete word-for-word export of every earlier conversation.
