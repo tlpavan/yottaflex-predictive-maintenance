@@ -33,15 +33,15 @@ This checklist reflects the recorded implementation and local verification resul
 - [x] Two independent full-pipeline runs compared.
 - [x] All 24 compared CSV row counts and SHA-256 checksums matched.
 - [x] Held-out risk metrics documented with the low-recall limitation.
-- [ ] Replay `data/exports/seed.sql` into a fresh database and verify the resulting schema and row counts, or continue to disclose that replay was not tested.
-- [ ] Run a final local verification after all documentation updates are copied into the project.
+- [x] Replay `data/exports/seed.sql` into a fresh database and verify the resulting schema and row counts, or continue to disclose that replay was not tested.
+- [x] Run a final local verification after all documentation updates are copied into the project.
 
 ## C. Documentation
 
-- [ ] README run order, setup command, business context, ID examples, and current validator behaviour reviewed.
-- [ ] Field-level data dictionary reviewed against generated field names, keys, domain values, and validation rules.
-- [ ] Validation summary updated with the 21-test and extended-validator results.
-- [ ] Documentation references and project tree checked against the final local folder.
+- [x] README run order, setup command, business context, ID examples, and current validator behaviour reviewed.
+- [x] Field-level data dictionary reviewed against generated field names, keys, domain values, and validation rules.
+- [x] Validation summary updated with the 21-test and extended-validator results.
+- [x] Documentation references and project tree checked against the final local folder.
 - [x] AI usage and prompt-history files retained without modification; the prompt history remains disclosed as a reconstructed record rather than a complete word-for-word export.
 
 ## D. Git and GitHub
@@ -49,8 +49,8 @@ This checklist reflects the recorded implementation and local verification resul
 - [x] Initial commit created on `main`.
 - [x] Initial commit pushed to the public GitHub repository.
 - [x] `.gitignore` reviewed for virtual environments, secrets, caches, and high-volume generated data.
-- [ ] Review and commit the current validator and documentation updates.
-- [ ] Push the final update to `origin/main` and verify the public repository reflects it.
+- [x] Review and commit the current validator and documentation updates.
+- [x] Push the final update to `origin/main` and verify the public repository reflects it.
 
 ## E. Known Limitations to Disclose
 
