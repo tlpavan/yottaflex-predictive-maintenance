@@ -389,4 +389,4 @@ Supporting technical documents:
 
 Public repository: `https://github.com/tlpavan/yottaflex-predictive-maintenance`
 
-The initial project commit is published on the public `main` branch. The extended-validator and documentation updates described here must also be committed and pushed before reviewers can see those latest changes.
+The project, extended validator, and documentation updates are committed and pushed to the public `main` branch. The repository is ready for review.
